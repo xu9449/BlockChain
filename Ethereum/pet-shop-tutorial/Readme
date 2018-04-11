@@ -1,0 +1,50 @@
+## Ethereum Pet Shop
+
+Trust ： counterparty risk
+
+Modern shared databases use techniques:
+
+Immutability Consensus
+
+A block chain is a shared database: Full decentralization Extreme fault tolerance Independent verification
+
+Ethereum is a blockchain allows you to run programs in its trusted environment Ethereum Virtual Machine (EVM)
+
+Smart contract is code that runs on the EVM
+
+Sudo： superuser permission
+
+Solidity is a statically-typed language Solidity is a statically-typed language, meaning data types like strings, integers, and arrays must be defined. Solidity has a unique type called an address. Addresses are Ethereum addresses, stored as 20 byte values. Every account and smart contract on the Ethereum blockchain has an address and can send and receive Ether to and from this address.
+
+Public variables have automatic getter methods, but in the case of arrays a key is required and will only return a single value.
+
+In Solidity the types of both the function parameters and output must be specified
+
+API stands for application programming interface. When building computer applications, an API allows a software developer to perform basic functions and define the proper way for programs to interact.
+
+Truffle has a built-in developer console, which we call Truffle Develop, which generates a development blockchain that we can use to test deploy contracts. It also has the ability to run Truffle commands directly from the console.
+
+install truffle : npm install -g truffle
+Ganache， a personal blockchain for Ethereum development http://truffleframework.com/ganache I will pay time to talk about time later.
+
+Install the Truffle
+
+ npm install -g truffle 
+Creating a Truffle project using a Truffle Box
+mkdir pet-shop-tutorial cd pet-shop-tutorial truffle unbox pet-shop Read the description of Truffle   Writing the smart contract
+Adoption.sol  
+Variable setup Compiling and migrating the smart contract
+Compile truffle compile 
+Migration
+truffle migrate
+
+Testing the smart contract
+TestAdoption.sol
+truffle test
+
+Creating a user interface to interact with the smart contract
+Instantiating web3
+Instantiating the contract Interacting with the dapp in a browser
+MetaMask
+Installing and configuring lite-server Using the dapp
+npm run dev
