@@ -1,3 +1,3 @@
-# Study Note
 
-1） READ Bitcoin whitepaper
+
+ READ Bitcoin whitepaper
